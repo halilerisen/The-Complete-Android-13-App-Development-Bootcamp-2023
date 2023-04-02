@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Self-Promo App</string>
+    <string name="hint_contact_name">İsim</string>
+    <string name="hint_contact_number">İletişim Numarası</string>
+    <string name="hint_my_display_name">Görüntülenecek İsim</string>
+    <string name="check_box_text_include_junior">Junior Dahil Et</string>
+    <string name="check_box_text_immediate_start">Anında Başlangıç</string>
+    <string name="hint_available_from_date">Tarihinden itibaren</string>
+    <string name="button_preview_message">Önizleme mesajı</string>
+
+    <string name="button_send_message">Mesajı Gönder</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_background"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="36dp"
+    android:orientation="vertical">
+
+    <!--    -->
+    <TextView
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_summary_heading" />
+
+    <!--    -->
+    <TextView
+        android:id="@+id/text_view_name_surname"
+        android:layout_width="match_parent"
+        android:layout_marginTop="48dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        tools:text="Name Surname" />
+
+    <!--    -->
+    <TextView
+        android:id="@+id/text_view_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp"
+        android:textColor="@color/blue_accent"
+        tools:text="Email" />
+
+    <!--    -->
+    <TextView
+        android:id="@+id/text_view_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/blue_accent"
+        android:textSize="16sp"
+        tools:text="555 555 55 55" />
+
+</LinearLayout>
